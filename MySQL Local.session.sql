@@ -1,10 +1,19 @@
-CREATE TABLE IF NOT EXISTS users (
-    int AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL
+CREATE TABLE IF NOT EXISTS USERS (
+    INT AUTO_INCREMENT PRIMARY KEY,
+    USERNAME VARCHAR(255) NOT NULL,
+    EMAIL VARCHAR(255) NOT NULL
 );
 
-INSERT INTO users (username, email) VALUES
-    ('john_doe', 'john@example.com')
-    ('jane_smith', 'jane@example.com')
-    ('bob_jones', 'bob@example.com')
+INSERT INTO USERS (
+    USERNAME,
+    EMAIL
+) VALUES (
+    'john_doe',
+    'john@example.com'
+) (
+    'jane_smith',
+    'jane@example.com'
+) (
+    'bob_jones',
+    'bob@example.com'
+)
