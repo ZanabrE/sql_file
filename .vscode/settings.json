@@ -10,7 +10,7 @@
             "port": 33060,
             "driver": "MySQL",
             "name": "MySQL Local",
-            "database": "sql_store",
+            "database": "demo",
             "username": "root",
             "password": "St@rtmySQLs3rv3r",
             "connectionTimeout": 30
